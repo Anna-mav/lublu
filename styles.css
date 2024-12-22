@@ -1,0 +1,89 @@
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: radial-gradient(circle, #1e272e, #2c3e50);
+    color: #fff;
+    overflow-x: hidden;
+}
+
+.hero-section {
+    text-align: center;
+    padding: 150px 20px;
+    background: linear-gradient(to bottom, #ff6b6b, #ff4757);
+    animation: fadeInDown 2s ease-in-out;
+}
+
+.hero-section h1 {
+    font-size: 4.5em;
+    animation: fadeInDown 1.5s ease-in-out;
+}
+
+.hero-section p {
+    font-size: 1.8em;
+    animation: fadeInUp 1.5s ease-in-out;
+}
+
+.scroll-section {
+    padding: 100px;
+    text-align: center;
+    background: #34495e;
+    margin: 20px 0;
+    border-radius: 15px;
+    animation: fadeIn 3s ease-in-out;
+}
+
+.scroll-section h2 {
+    font-size: 3em;
+}
+
+.scroll-section p {
+    font-size: 1.4em;
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    background: #1e272e;
+    color: #ccc;
+    font-size: 1.3em;
+}
+
+.animated-svg {
+    width: 80%;
+    max-width: 500px;
+    height: auto;
+    margin: 20px auto;
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
